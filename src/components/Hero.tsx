@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         <div className="relative h-full">
           <div className="inline-block mt-[max(8rem,min(12.5rem,20vh))]">
             <p 
-              className="text-white font-bold tracking-tight leading-none"
+              className="text-[#FDFDFD] font-bold tracking-tight leading-none"
               style={{
                 fontSize: 'clamp(2.8rem, 10vw, 9rem)' // 45px to 176px
               }}
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
               DESIGN TO
             </p>
             <p 
-              className="text-white font-bold tracking-tight leading-none"
+              className="text-[#FDFDFD] font-bold tracking-tight leading-none"
               style={{
                 fontSize: 'clamp(2.8rem, 10vw, 9rem)', // 45px to 176px
                 marginTop: 'clamp(0.5rem, 1vw, 0rem)' // Fluid margin that reduces as screen gets larger
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             </p>
             <div>
               <p 
-                className="text-white tracking-tight"
+                className="text-[#FDFDFD] tracking-tight"
                 style={{
                   fontSize: 'clamp(0.875rem, 1.2vw, 1.25rem)', // 14px to 20px
                   marginTop: 'clamp(1.5rem, 3vw, 3rem)' // Fluid margin
